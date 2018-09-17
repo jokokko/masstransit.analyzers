@@ -1,0 +1,17 @@
+title: MassTransit Analyzers
+description: Roslyn analyzers for MassTransit
+collections:
+  rules:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "rules"
+    values:
+      layout: rule
+baseurl: /masstransit.analyzers
+repository: jokokko/masstransit.analyzers
+author: Joona-Pekka Kokko
+exclude: ["Gemfile*"]
+plugins:  
+  - jekyll-seo-tag

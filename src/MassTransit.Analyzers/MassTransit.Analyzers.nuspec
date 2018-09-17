@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>MassTransit.Analyzers</id>
+    <version>0.0.0</version>
+    <title>MassTransit.Analyzers</title>
+    <authors>Joona-Pekka Kokko</authors>
+    <summary>Code Analyzers for MassTransit</summary>
+    <description>Code Analyzers for projects using MassTransit.</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jokokko/masstransit.analyzers</projectUrl>    
+    <licenseUrl>https://raw.githubusercontent.com/jokokko/masstransit.analyzers/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>masstransit.analyzers, masstransit, analyzers, analyser, roslyn</tags>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\netstandard2.0\MassTransit.Analyzers.dll" target="analyzers\dotnet\cs\" />
+    <file src="tools\*.ps1" target="tools\" />
+  </files>
+</package>
