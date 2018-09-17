@@ -262,3 +262,5 @@ __pycache__/
 
 tools/
 artifacts/
+
+!src/MassTransit.Analyzers/tools/
