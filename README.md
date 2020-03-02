@@ -1,3 +1,5 @@
+## Deprecated - See https://github.com/MassTransit/MassTransit/tree/develop/src/MassTransit.Analyzers ##
+
 # MassTransit.Analyzers [![Build status](https://ci.appveyor.com/api/projects/status/ykf3t14lmx94tw0v?svg=true)](https://ci.appveyor.com/project/jokokko/masstransit-analyzers) [![NuGet Version](http://img.shields.io/nuget/v/MassTransit.Analyzers.svg?style=flat)](https://www.nuget.org/packages/MassTransit.Analyzers/)
 Code Analyzers for [MassTransit](https://github.com/MassTransit/MassTransit).
 
